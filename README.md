@@ -2,6 +2,7 @@
 Harnessing the power of data to understand the future weather accross the world.
 
 🚀 **Phase 0: Data Extraction & Pipeline Setup**  
+
 [![Airflow](https://img.shields.io/badge/Airflow-2.6.3-blue?style=flat&logo=apache-airflow)](https://airflow.apache.org/)  
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-blue?style=flat&logo=postgresql)](https://www.postgresql.org/)  
 
