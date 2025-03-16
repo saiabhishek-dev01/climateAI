@@ -1,4 +1,4 @@
-# 🌍 ClimateAI - Advanced Weather intelligence at your tips!  
+# 🌍 ClimateAI - Advanced Weather intelligence making your life better!  
 Harnessing the power of data to understand the future weather accross the world.
 
 🚀 **Phase 0: Data Extraction & Pipeline Setup**  
