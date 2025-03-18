@@ -56,3 +56,21 @@ This **scalable data pipeline** integrates information from:
                   | PostgreSQL Database |
                   +--------------------+
 
+
+---
+
+## ⚙ Tech Stack  
+- **Apache Airflow** (Orchestrating the ETL pipeline)  
+- **PostgreSQL** (Storing the structured data)  
+- **Python** (Data extraction, transformation, and validation)  
+- **Docker** (Containerizing the Airflow instance)  
+- **APIs:** Open-Meteo, NOAA, NASA POWER, IQAir  
+
+---
+
+## 🚀 Installation & Setup  
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/saiabhishek-dev01/climateAI.git
+cd climateAI
+
