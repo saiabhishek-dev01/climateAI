@@ -21,7 +21,7 @@ This **scalable data pipeline** integrates information from:
 
 ---
 
-## 📸 Project Snapshots  
+## 📸 Flow of the project  
 ### 🔹 ETL DAG Workflow in Apache Airflow  
 <img width="523" alt="image" src="https://github.com/user-attachments/assets/3555dc46-33bb-49ac-9577-72f242ceb75d" />
 
@@ -31,3 +31,28 @@ This **scalable data pipeline** integrates information from:
 
 ## 🏗 Project Architecture  
 ### 🔹 End-to-End ETL Pipeline Architecture  
+
+                      +--------------+
+                      |    User      |
+                      +------+-------+
+                             |
+                             v
+             +--------------------------------+
+             |       Airflow Scheduler       |
+             +--------------------------------+
+               |        |        |       |
+               v        v        v       v
+    +----------+   +----------+   +----------+   +----------+
+    | OpenMeteo |   |  NOAA    |   |  NASA    |   |  IQAir   |
+    +----------+   +----------+   +----------+   +----------+
+               |        |        |       |
+               v        v        v       v
+             +--------------------------------+
+             |       Data Transformation      |
+             +--------------------------------+
+                             |
+                             v
+                  +--------------------+
+                  | PostgreSQL Database |
+                  +--------------------+
+
