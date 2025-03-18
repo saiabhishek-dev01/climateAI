@@ -43,7 +43,7 @@ This **scalable data pipeline** integrates information from:
                |        |        |       |
                v        v        v       v
     +----------+   +----------+   +----------+   +----------+
-    | OpenMeteo |   |  NOAA    |   |  NASA    |   |  IQAir   |
+    | OpenMeteo |  |   NOAA   |   |  NASA    |   |  IQAir   |
     +----------+   +----------+   +----------+   +----------+
                |        |        |       |
                v        v        v       v
