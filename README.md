@@ -1,35 +1,32 @@
-# 🌍 ClimateAI - Advanced Weather intelligence making your life better!  
-Harnessing the power of data to understand the future weather accross the world.
+# 🌍⚡ Multi-Source ETL Pipeline for Weather & Air Quality Data  
 
-🚀 **Phase 0: Data Extraction & Pipeline Setup**  
-
-[![Airflow](https://img.shields.io/badge/Airflow-2.6.3-blue?style=flat&logo=apache-airflow)](https://airflow.apache.org/)  
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-blue?style=flat&logo=postgresql)](https://www.postgresql.org/)  
-
-> **A scalable ETL pipeline using Apache Airflow, extracting real-time weather data from Open-Meteo API and storing it in PostgreSQL for further analysis.**
+🚀 **A Scalable Data Sciene Pipeline Integrating Multiple APIs to Aggregate Weather & Air Quality Data into PostgreSQL**  
 
 ---
 
-## 📌 Project Overview
-🌦️ **ClimateAI** is an **automated ETL pipeline** designed to process **real-time weather data** using **multiple data sources**. The pipeline is designed to be **scalable, cloud-ready, and extensible**, making it an ideal foundation for **advanced weather analytics and climate forecasting**.
+## 🏗 Project Overview  
+This project is an **end-to-end multi-source ETL pipeline** that **automates the extraction, transformation, validation and loading (ETL) of weather and air quality data** from multiple sources into **PostgreSQL** using **Apache Airflow**.  
 
-✅ **Phase 0:** Extracting weather data from Open-Meteo API and storing it in PostgreSQL.  
-🔜 **Phase 1:** Multi-source integration (NOAA, NASA POWER, Air Quality API).  
-🔜 **Phase 2:** Machine learning-based **7-day climate prediction**.  
-🔜 **Phase 3:** Interactive **Tableau dashboard & AI chatbot** for weather insights.  
+This **scalable data pipeline** integrates information from:  
+✅ **Open-Meteo API** → Temperature, Wind Speed, Weather Code  
+✅ **NOAA API** → Humidity, Precipitation, Wind Speed  
+✅ **NASA POWER API** → Solar Radiation, Cloud Coverage  
+✅ **IQAir API** → Air Quality Index (AQI), PM2.5, PM10, CO Levels  
 
----
-
-## 🏗 Tech Stack
-| **Category**       | **Technology** |
-|-------------------|--------------|
-| **Orchestration** | [Apache Airflow](https://airflow.apache.org/) |
-| **Data Storage**  | [PostgreSQL](https://www.postgresql.org/) |
-| **Data Extraction** | [Open-Meteo API](https://open-meteo.com/en/docs) |
-| **Cloud Integration (Upcoming)** | AWS S3, Snowflake |
-| **Visualization (Upcoming)** | Tableau, Streamlit |
-| **ML Forecasting (Upcoming)** | LSTMs, Prophet, ARIMA |
+🔹 Designed to handle **real-time and historical data**  
+🔹 Implements **data validation & consistency checks**  
+🔹 Uses **PostgreSQL for structured storage**  
+🔹 Fully **automated with Apache Airflow DAGs**  
 
 ---
 
-## ⚡ Pipeline Architecture
+## 📸 Project Snapshots  
+### 🔹 ETL DAG Workflow in Apache Airflow  
+<img width="523" alt="image" src="https://github.com/user-attachments/assets/3555dc46-33bb-49ac-9577-72f242ceb75d" />
+
+
+
+---
+
+## 🏗 Project Architecture  
+### 🔹 End-to-End ETL Pipeline Architecture  
