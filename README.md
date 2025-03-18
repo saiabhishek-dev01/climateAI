@@ -8,6 +8,7 @@
 This project is an **end-to-end multi-source ETL pipeline** that **automates the extraction, transformation, validation and loading (ETL) of weather and air quality data** from multiple sources into **PostgreSQL** using **Apache Airflow**.  
 
 This **scalable data pipeline** integrates information from:  
+
 ✅ **Open-Meteo API** → Temperature, Wind Speed, Weather Code  
 ✅ **NOAA API** → Humidity, Precipitation, Wind Speed  
 ✅ **NASA POWER API** → Solar Radiation, Cloud Coverage  
